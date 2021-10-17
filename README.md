@@ -42,7 +42,7 @@ function App(props) {
 |         Name          |    Type     | Default | Description                                |
 | :-------------------: | :---------: | :-----: | :----------------------------------------- |
 |  **[`when`](#when)**  | `{Boolean}` |         | Condition to be met                        |
-| **[`after`](#after)** | `{String}`  |   `_`   | Delay on when to show component by seconds |
+| **[`after`](#after)** | `{String}`  |         | Delay on when to show component by seconds |
 
 ### `when`
 
