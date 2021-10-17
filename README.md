@@ -27,7 +27,7 @@ import MyComponent from './components/MyComponent';
 
 function App(props) {
   return (
-      <Show when={true}> // some condition
+      <Show when={true}>
         <MyComponent />
       </Show>
       <Hide when={true}>
