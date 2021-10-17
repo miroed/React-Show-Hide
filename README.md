@@ -1,4 +1,4 @@
-# react-input-mask
+# react-show-hide
 
 [![Build Status](https://img.shields.io/travis/miroed/react-show-hide/master.svg?style=flat)](https://travis-ci.org/miroed/react-show-hide)
 [![npm version](https://img.shields.io/npm/v/react-show-hide.svg?style=flat)](https://www.npmjs.com/package/react-show-hide)
