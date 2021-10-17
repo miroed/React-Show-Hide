@@ -1,0 +1,34 @@
+{
+  "name": "react-show-hide",
+  "version": "1.0.0",
+  "description": "Simple react component for conditionally showing or hiding components.",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroed/React-Show-Hide.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "typescript"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": {
+    "name": "Michael Edmond",
+    "email": "edmond.mr@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
