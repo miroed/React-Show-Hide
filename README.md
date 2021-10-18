@@ -10,6 +10,7 @@ Simple react component for conditionally showing or hiding components.
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Components](#components)
 - [Properties](#properties)
 
 # Installation
@@ -37,6 +38,13 @@ function App(props) {
 }
 ```
 
+# Components
+
+|   Name   | Description                                     |
+| :------: | :---------------------------------------------- |
+| **Show** | Display children components after condition met |
+| **Hide** | Hide children components after condition met    |
+
 # Properties
 
 |         Name          |    Type     | Default | Description                                |
@@ -58,9 +66,9 @@ In vanilla JS, doing the following works great:
 if (value.length) return "I feel seen 🙌!";
 ```
 
-Doing the same thing using Logical Operator (&&), you're returning a falsy
-expression and will still cause the element after && to be skipped. In the
-example below, `0` will be returned by the render method.
+Doing the same thing using the Logical && Operator, you're returning a falsy
+expression and will cause the component after && to be skipped. In the example
+below, `0` will be returned by the render method.
 
 ```jsx
 {
@@ -77,8 +85,8 @@ We catch that for you:
 ### `after`
 
 ```jsx
-<Show when={value.length} after="0.6s">I feel seen 🙌!</Show> // shown in 0.6s seconds after condition met
-<Hide when={value.length} after="60s">Gone after 60 seconds 🏎!</Hide> // gone in 60 seconds after condition met
+<Show when={value.length} after={600}>I feel seen 🙌!</Show> // shown in 0.6s seconds after condition met
+<Hide when={value.length} after={60000}>Gone after 60 seconds 🏎!</Hide> // gone in 60 seconds after condition met
 ```
 
 Controls the delay on showing the component.
