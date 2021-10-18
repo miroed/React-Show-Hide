@@ -5,7 +5,7 @@ import React, {
   useState,
 } from "react";
 
-type ShowHideProps = {
+export type ShowHideProps = {
   when: boolean;
   children: ReactNode;
   after?: number;
@@ -41,20 +41,20 @@ export const Hide: FunctionComponent<ShowHideProps> = ({
   children,
   after,
 }) => {
-  const [show, setShow] = useState(true);
+  const [hide, setHide] = useState(true);
 
   useEffect(() => {
     if (after && isNumber(after)) {
       const hideAfterTimer: ReturnType<typeof setTimeout> = setTimeout(() => {
-        setShow(false);
+        setHide(false);
       }, after);
       return () => clearTimeout(hideAfterTimer);
     }
 
-    setShow(false);
+    setHide(false);
   }, []);
 
-  if (show) return null;
+  if (hide) return null;
 
   return <>{when && <>{children}</>}</>;
 };

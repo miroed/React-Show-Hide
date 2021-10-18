@@ -4,7 +4,6 @@
   "description": "Simple react component for conditionally showing or hiding components.",
   "source": "src/index.tsx",
   "main": "dist/main.js",
-  "module": "dist/main.js",
   "types": "dist/types.d.ts",
   "scripts": {
     "watch": "parcel watch",
