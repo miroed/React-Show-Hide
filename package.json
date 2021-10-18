@@ -1,5 +1,5 @@
 {
-  "name": "react-show-hide",
+  "name": "@miroed/react-show-hide",
   "version": "1.0.0",
   "description": "Simple react component for conditionally showing or hiding components.",
   "source": "src/index.tsx",

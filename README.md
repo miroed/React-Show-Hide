@@ -1,4 +1,4 @@
-# react-show-hide
+# @miroed/react-show-hide
 
 [![Build Status](https://img.shields.io/travis/miroed/react-show-hide/master.svg?style=flat)](https://travis-ci.org/miroed/react-show-hide)
 [![npm version](https://img.shields.io/npm/v/react-show-hide.svg?style=flat)](https://www.npmjs.com/package/react-show-hide)
@@ -23,7 +23,7 @@ react-show-hide requires **React 16.8.0 or later.**
 
 ```jsx
 import React from "react"
-import { Show, Hide } from "react-show-hide";
+import { Show, Hide } from "@miroed/react-show-hide";
 import MyComponent from './components/MyComponent';
 
 function App(props) {
