@@ -5,7 +5,6 @@
   "source": "src/index.tsx",
   "main": "dist/main.js",
   "module": "dist/main.js",
-  "private": "false",
   "types": "dist/types.d.ts",
   "scripts": {
     "watch": "parcel watch",
